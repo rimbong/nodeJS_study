@@ -2,11 +2,11 @@ npm -> node package manage의 약자
 
 https://www.npmjs.com/에 접속하여 필요한 모듈을 설치한다
 
-node index.js
--> index.js 실행
-
 npm init 
 -> npm을 시작하겠다는 명령어
+
+node index.js
+-> index.js 실행
 
 package.json
 -> 설치된 모듈들을 정리한 파일 
@@ -25,6 +25,8 @@ npm uninstall figlet
 -> 모듈 제거
 -------------------
 nodeJS 프레임 워크 express
+npm install express
+-> express 설치
 
 const express = require('express')
 const app = express()
@@ -79,6 +81,8 @@ app.listen(port, () => {
 -------------------------
 cors 
 -> 지정되지 않은 타 사이트 접근을 막는 것
+npm install cors
+-> cors 설치
 
 var express = require('express')
 var cors = require('cors')
