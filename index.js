@@ -2,6 +2,7 @@ var express = require('express')
 var cors = require('cors')
 var app = express()
 const port = 3000;
+// 도메인 제한없이 해당 서버 요청 가능
 app.use(cors());
 
 app.get('/', function (req, res) {
